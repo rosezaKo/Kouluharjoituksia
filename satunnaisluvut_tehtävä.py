@@ -84,5 +84,12 @@ while 7 not in tokalista:
 print(tokalista)
 print("Määröjä oli: ", maara)
 #Tehtävä 3.4
+munlista = ["markus","tikru","miisu","kebab","mörkö","aapo","jere","max","freak","juuso"]
+toinenlista = []
+laskurini = 0
+while laskurini <= 40:
+    toinenlista.append(random.choice(munlista))
+    laskurini += 1
+print(toinenlista)
 
 
